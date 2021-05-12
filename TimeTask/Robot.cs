@@ -6,9 +6,9 @@ using System.Text;
 namespace TimeTask
 {
     /// <summary>
-    /// 测试
+    /// 添加一个测试任务
     /// </summary>
-    internal class Robot : BllTaskBase
+    internal class Robot : TaskBase
     {
         public const string TASK_NAME = "robot";
         /// <summary>

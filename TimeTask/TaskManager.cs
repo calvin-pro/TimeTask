@@ -9,13 +9,13 @@ namespace TimeTask
     /// <summary>
     /// 定时任务管理
     /// </summary>
-    public class BllTaskManager
+    public class TaskManager
     {
-        private static SortedDictionary<string, IBllTask> __processConfig = new SortedDictionary<string, IBllTask>();
+        private static SortedDictionary<string, ITask> __processConfig = new SortedDictionary<string, ITask>();
         /// <summary>
         /// 初始化
         /// </summary>
-        static BllTaskManager()
+        static TaskManager()
         {
             try
             {

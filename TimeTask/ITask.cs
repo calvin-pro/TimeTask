@@ -8,7 +8,7 @@ namespace TimeTask
     /// <summary>
     /// 定时任务接口
     /// </summary>
-    internal interface IBllTask
+    internal interface ITask
     {
         /// <summary>
         /// 启动

@@ -9,7 +9,7 @@ namespace TimeTask
     /// <summary>
     /// 基类
     /// </summary>
-    internal abstract class BllTaskBase : IBllTask
+    internal abstract class TaskBase : ITask
     {
         /// <summary>
         /// 配置
@@ -30,13 +30,13 @@ namespace TimeTask
         /// <summary>
         /// 初始化
         /// </summary>
-        public BllTaskBase()
+        public TaskBase()
         { }
         /// <summary>
         /// 初始化
         /// </summary>
         /// <param name="config"></param>
-        public BllTaskBase(TaskConfig config)
+        public TaskBase(TaskConfig config)
         {
             SetConfig(config);
         }
